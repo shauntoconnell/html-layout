@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+body {
+  background-color: hotpink;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  background-color: lightgray;
+  height: 125px;
+  padding: 12.5px 35px;
+}
+
+#logo {
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 100px;
+}
+
+#main {
+  background-color: whitesmoke;
+  height: calc(100vh - 725px);
+  min-height: 350px;
+  padding: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#content {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.row {
+  height: 150px;
+}
+
+#row-1 {
+  background-color: cornflowerblue;
+}
+
+#row-2 {
+  background-color: turquoise;
+}
+
+#row-3 {
+  background-color: lightgreen;
+}
+
+#row-4 {
+  background-color: gold;
+}

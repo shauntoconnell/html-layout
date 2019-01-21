@@ -1,0 +1,43 @@
+header {
+  background-color: gray;
+  height: 150px;
+  width: 100%;
+}
+
+main {
+  background: rosybrown;
+  height: calc(100vh - 150px);
+  width: 100%;
+}
+
+.left {
+  background-color: lightgray;
+  height: 100%;
+  width: 150px;
+  float:left;
+}
+
+.right {
+  background-color: lightgray;
+  height: 100%;
+  width: 150px;
+  float: right;
+}
+
+.middle {
+  background-color: lightblue;
+  height: 100%;
+  width: calc(100vw - 300px);
+  position: relative;
+  left: 150px;
+}
+
+.main-content {
+  background-color: whitesmoke;
+  height: calc(100% - 100px);
+}
+
+.footer {
+  background: black;
+  height: 100px;
+}
